@@ -162,3 +162,70 @@ button {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+/*course overview*/
+
+.title {
+  padding: 2rem 0rem;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.all-course-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgrey;
+  width: 90%;
+  flex-wrap: wrap;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+.course-container {
+  max-width: 30%;
+  background-color: white;
+
+}
+.all-course-container img {
+  max-width: 100%;
+  max-height: auto;
+}
+.courses-text {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  text-align: left;
+  flex-shrink: 1;
+}
+.courses-text span {
+  line-height: 1.6;
+  font-size: 0.75rem;
+  color: #4C4646;
+  padding: 0.5rem 0rem;
+}
+.courses-text h4{
+  padding-bottom: 1rem;
+
+}
+.margin {
+  margin-top: 2rem;
+}
+
+/*Thesis exibit*/
+video {
+  display: ;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  width: 100%;
+  border-top: 0.25px solid lightgrey;
+  align-items: center;
+  justify-content: space-between;
+}
+.agenda-text h4, p {
+  text-align: left;
+}
+#copyright {
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+}
