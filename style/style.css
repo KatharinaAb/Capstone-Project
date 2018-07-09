@@ -222,7 +222,8 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-.agenda-text h4, p {
+.agenda-text h4, p
+ {
   text-align: left;
 }
 #copyright {
