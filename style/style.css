@@ -1,0 +1,164 @@
+/*universal style*/
+html {
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Lato, "sans-serif";
+}
+ p {
+   line-height: 1.6;
+   font-size: 0.75rem;
+   color: #4C4646;
+ }
+/*header*/
+header {
+}
+.colmaracademy {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+/*navigation*/
+nav {
+  display: flex;
+  background: white;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 3rem;
+  padding-left: 1.5rem;
+}
+.menu {
+  padding-right: 1.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu a {
+  border-right: 16px solid lightblue;
+  height: 100%;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu a:last-child {
+  border-right: none;
+}
+.flex {
+  display: none;
+}
+/*banner*/
+.banner {
+  background-color: lightgrey;
+  position: relative;
+  top: 64px;
+  display: flex;
+}
+.banner-image {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  border-right: 0.25px solid lightgrey;
+}
+.banner-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.banner-text {
+  width: 40%;
+  margin: auto;
+}
+.text-container {
+  width: 70%;
+}
+h1 {
+  font-size: 2rem;
+  color: #4C4646;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  letter-spacing: 1px;
+}
+h4 {
+  font-size: 1rem;
+  color: #4C4646;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+button {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: #4C4646;
+  padding: 0.5rem 0;
+  width: 100%;
+  border: none;
+}
+/*content*/
+.content {
+  background-color: white;
+}
+.text {
+  display: block;
+  padding-right: 1.5rem;
+}
+.text h1 {
+  padding-top: 2rem;
+}
+.author {
+  padding-top: 2rem;
+}
+/*agenda*/
+.agenda {
+  display: block;
+  width: 40%;
+  padding-top: 2rem;
+}
+.agenda-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-bottom: 0.25px solid lightgrey;
+}
+.agenda-image {
+  width: 35%;
+  padding-top: 0;
+  padding: 1rem 1rem;
+}
+.agenda-image img {
+  width: 100%;
+  height: auto;
+}
+.agenda-text {
+  width: 65%;
+}
+.agenda-text h4 {
+  padding-bottom: 0.5rem;
+}
+.agenda-text p {
+  padding-bottom: 0.5rem;
+}
+.agenda-text a {
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: #00AFE9;
+}
+.grey {
+  background-color: lightgrey;
+}
+.no-top {
+  padding-top: 0;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
