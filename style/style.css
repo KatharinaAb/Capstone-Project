@@ -8,6 +8,7 @@ html {
    line-height: 1.6;
    font-size: 0.75rem;
    color: #4C4646;
+   text-align: left;
  }
 /*header*/
 header {
@@ -94,6 +95,7 @@ h4 {
   padding-bottom: 2rem;
   line-height: 1.6;
   letter-spacing: 0.5px;
+  text-align: left;
 }
 button {
   font-size: 1rem;
@@ -114,6 +116,7 @@ button {
 }
 .text h1 {
   padding-top: 2rem;
+  padding-bottom: 1.5rem;
 }
 .author {
   padding-top: 2rem;
@@ -165,7 +168,7 @@ button {
 /*course overview*/
 
 .title {
-  padding: 2rem 0rem;
+  padding-top: 2rem;
   margin: auto;
   display: block;
   text-align: center;
@@ -178,6 +181,7 @@ button {
   flex-wrap: wrap;
   margin-left: 4.5rem;
   margin-right: 4.5rem;
+  padding-bottom: 2rem;
 }
 .course-container {
   max-width: 30%;
@@ -210,23 +214,50 @@ button {
 }
 
 /*Thesis exibit*/
-video {
-  display: ;
+.video-clip {
+  display: block;
+  width: 60%;
+  padding: 2rem 1.5rem;
 }
-
+.thesis-container {
+  display: flex;
+  position: relative;
+  padding-bottom: 32px;
+}
+.no-line {
+  border-bottom: none;
+}
+.video-clip h4 {
+  padding-bottom: 0.5rem;
+}
+video {
+  padding-bottom: 1.5rem;
+}
+.no-padding h1 {
+  padding-bottom: 0rem;
+}
 /*footer*/
 footer {
+  position: relative;
+  top: 2rem;
   display: flex;
   width: 100%;
   border-top: 0.25px solid lightgrey;
   align-items: center;
   justify-content: space-between;
-}
-.agenda-text h4, p
- {
-  text-align: left;
+  margin-bottom: 2rem;
 }
 #copyright {
   padding-top: 1rem;
   padding-left: 1.5rem;
+  line-height: 1.6;
+  font-size: 0.75rem;
+  color: #4C4646;
+}
+footer p {
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 0.75rem;
+  color: #4C4646;
 }
