@@ -261,3 +261,55 @@ footer p {
   font-size: 0.75rem;
   color: #4C4646;
 }
+/*responsive to <480px*/
+@media only screen and (max-width: 480px){
+  .flex {
+    display: contents;
+}
+.menu {
+  display: none;
+}
+.colmaracademy {
+  display: none;
+}
+.banner{
+  display: block;
+}
+.banner-image{
+  width: 100%;
+  padding: 0rem;
+}
+.banner-text{
+  width: 100%;
+}
+.text-container {
+  width: 90%;
+  padding: 2rem 1rem;
+}
+.logo img {
+  height: 2rem;
+  padding-left: 1.5rem;
+}
+.last {
+    padding-right: 1.5rem;
+}
+.hide {
+  display: none;
+}
+.agenda {
+  width: 100%;
+  padding-top: 1rem;
+}
+.agenda-image img {
+  width: 100%;
+}
+.agenda-container {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+.agenda-image {
+  padding: 0rem;
+  width: 100%;
+  height: auto;
+}
