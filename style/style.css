@@ -300,16 +300,68 @@ footer p {
   width: 100%;
   padding-top: 1rem;
 }
-.agenda-image img {
-  width: 100%;
-}
 .agenda-container {
   width: 90%;
-  margin: auto;
   display: block;
+  padding-bottom: 2rem;
+  border-bottom: none;
+}
+.agenda-text {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.agenda-container.grey {
+  background-color: white;
 }
 .agenda-image {
-  padding: 0rem;
+  width: 100%;
+  height: 200px;
+  padding-top: 0;
+  padding: 1rem 1rem;
+  overflow: hidden;
+}
+.agenda-image img {
   width: 100%;
   height: auto;
+}
+.all-course-container {
+  display: none;
+}
+.alternative-menu h4{
+  background-color: lightgrey;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.banner.grey.course-overview {
+  background-color: white;
+}
+.title {
+  border-top: 0.25px solid lightgrey;
+}
+.hide {
+  display: none;
+}
+.video-clip {
+  display: block;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+video {
+  padding: 0rem;
+}
+footer {
+  padding: 1rem 1rem;
+  border-top: none;
+  margin-bottom: 0rem;
+  }
+#copyright {
+  padding: 0rem;
+}
 }
